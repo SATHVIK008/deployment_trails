@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 import pickle
-from sklearn.model_selection import RandomizedSearchCV,GridSearchCV
+from sklearn.model_selection import RandomizedSearchCV,GridSearchCV,train_test_split
 from sklearn.neighbors import KNeighborsClassifier
 
 
